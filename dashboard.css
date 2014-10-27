@@ -1,8 +1,10 @@
 .dashboard-container {
     width: 100%;
+    background-image: url('images/background.png');
+    background-repeat: repeat;
 }
 .title {
-    padding: 18px 0 0 2.37859266600595%;
+    /*padding: 18px 0 0 2.37859266600595%;*/
     text-align: left;
     text-decoration: none;
     font-size: 24px;
@@ -13,15 +15,18 @@
     font-family: Muli,sans-serif;
     position: relative;
     background: #212121;
-
-    min-height: 37px;
+    /*min-height: 37px;*/
     float: left;
     width: 100%;
     margin: 0 0 0 0;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+    line-height: 55px;
+    padding-left: 25px;
 }
+
+
 .dashboard-infobox {
     display: inline-block;
     margin: 25px 0 0 25px;
@@ -235,4 +240,5 @@
 /* fix chart*/
 .chart-data-zero {
     display: none;
+    background-color: #666;
 }
