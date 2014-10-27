@@ -1,0 +1,2267 @@
+<html class="no-js k-webkit k-webkit38" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>KAI Video Analytics as-a-Service</title>
+    <meta name="description" content="KAI Video Analytics as-a-Service">
+    <meta name="keywords" content="KAI square,KUP,Platform">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+    var i18nMessages = {
+        "start": "Start",
+        "prefs-screen-low-enabled-missing": "Screen low preference required",
+        "sad": "Sad",
+        "bucket-created": "Bucket created",
+        "users": "Users",
+        "evt-data-not-available": "Event data is not available yet",
+        "no-driver-selected": "Please select Driver",
+        "validation.email": "Invalid email address",
+        "reset-password": "Reset Password",
+        "action-successful": "Action Successful",
+        "total": "Total",
+        "wednesday": "Wednesday",
+        "confirm-password": "Confirm Password",
+        "visitor-vs-time": "Visitors vs Time",
+        "sunday": "Sunday",
+        "msg-bucket-logo-format": "Only PNG file is allowed",
+        "prefs-mobile-critical-missing": "Mobile critical value missing",
+        "end-of-report": "End of report",
+        "node-settings": "Node Settings",
+        "prefs-sms-low-missing": "SMS low value missing",
+        "receive-noti": "Receive notification",
+        "device-list": "Device List",
+        "control": "Control",
+        "blob-id-missing": "Blob ID required",
+        "operating-schedule": "Operating Schedule",
+        "address": "Address",
+        "edit-marker": "Edit Marker Details",
+        "live-monitoring": "Live Monitoring",
+        "details": "Details",
+        "no-of-occurrence": "No. of Occurrences",
+        "validation.minSize": "Minimum size is %2$d",
+        "server-error": "Server Error",
+        "feature-assignments-missing": "Feature assignments required",
+        "processed-view": "Processed View",
+        "new-name": "New Name",
+        "msg-password-success": "New password has been activated!",
+        "marker-name": "Marker Name",
+        "model": "Model",
+        "prefs-email-moderate-missing": "Email moderate value missing",
+        "age-20-35-per": "Age\n20-35(%)",
+        "license-list-generated-on": "License list generated on",
+        "singtel-login-title": "Welcome To M2M Video Analytics Login Page",
+        "sudden-turn": "Sudden Turn",
+        "global-license-management": "License Management",
+        "in-vs-out": "IN vs OUT",
+        "svg-string-missing": "SVG string required",
+        "terms-privacy": "Terms \u0026 Privacy",
+        "low": "Low",
+        "least-incidents": "Least Incidents",
+        "out": "OUT",
+        "event-upstream-failed": "Video upstream to cloud failed",
+        "kai-nodes": "Device List",
+        "device-channel": "Device Name, Camera Name etc.",
+        "event-node-unregistered": "Unrecognized node connected",
+        "map-source": "Map Source",
+        "device-password": "Device Password",
+        "configuration": "Configuration",
+        "live-view-msg": "Please drag and move the camera below to right side video frame.",
+        "clear-map": "Clear map",
+        "minimum-duration": "Minimum Duration",
+        "flow-info-tooltip": "Heatmap Intensity",
+        "filer-server-host": "Host",
+        "poi-updated": "POI updated",
+        "no-flash-player-detected": "No flash player detected, please check if it is disabled or not installed",
+        "failed-to-get-commands": "Failed to get current commands",
+        "session-key-missing": "Session key required",
+        "msg-empty-required-fields": "Required fields below are empty!",
+        "add-schedule": "Add Schedule",
+        "max-vca-count": "Max VCA Count",
+        "next": "Next",
+        "msg-mask-change-info": "Area Change Allowed (1% ~ 100%)",
+        "prefs-mobile-low-missing": "Mobile low value missing",
+        "total-results": "Total Results",
+        "filter-route": "Filter Route",
+        "please-draw-polygon-region": "Please draw the region(s) on the snapshot to enable analytics",
+        "license-number": "License Number",
+        "report-object-counting": "Trip Wire Counting",
+        "n/a": "N/A",
+        "annoucement-created": "Announcement Created",
+        "monitor-nodes": "Nodes to monitor",
+        "news": "News",
+        "pos-frequency-missing": "POS import frequency missing",
+        "immobilize-vehicle": "Immobilize Vehicle",
+        "validity-period": "Validity Period",
+        "device-address-missing": "Address required",
+        "yes": "Yes",
+        "media-format": "Media Format",
+        "event-vca-object-counting": "Trip Wire Counting",
+        "least-visits": "Least visits",
+        "traffic-source": "Starting Traffic Source",
+        "prefs-email-moderate-enabled-missing": "Email moderate preference required",
+        "node-list": "Node List",
+        "event-storage-stopped": "Recording stopped",
+        "specify-companyid": "Specify Company ID",
+        "speeding": "Speeding",
+        "invalid-dates": "Invalid Dates",
+        "centroid-radius": "Centroid Radius",
+        "prefs-mobile-critical-enabled-missing": "Mobile critical preference required",
+        "internal-error-list": "Internal Error",
+        "customer-id": "Customer ID",
+        "type-running-on-node": "Analytics running on Edge",
+        "choice-mins": "Minutes",
+        "receipt": "Receipt",
+        "edit-schedule": "Edit Schedule",
+        "enter-digit": "Enter Digit",
+        "send-message-type": "Send Message Type:",
+        "device-name-missing": "Device name required",
+        "bucket-name-missing": "Bucket name required",
+        "prefs-sms-moderate-missing": "SMS moderate value missing",
+        "email-missing": "Email required",
+        "clear": "Clear",
+        "december": "December",
+        "add-analytics": "Add Analytics",
+        "monthly-summary-report": "Monthly Summary Report of your account on KAI Unified Platform",
+        "prefs-sms-low-enabled-missing": "SMS low preference required",
+        "actions": "Actions",
+        "total-in": "Total in",
+        "neutral-percent": "Neutral(%)",
+        "critical": "Critical",
+        "confirm-analytics-deactivate": "Confirm to deactivate this analytics?",
+        "tuesday": "Tuesday",
+        "age-above-55-per": "Age Above\n 55(%)",
+        "failed-to-ptz-camera-view": "Failed to ptz camera view",
+        "password-min-length": "Password length must be at least 8 characters",
+        "params-string-missing": "Params string required ",
+        "direction": "Direction",
+        "expiry-date": "Expiry Date",
+        "msg-node-incorrect-login": "Incorrect Username/Password",
+        "age-below-20-per": "Age Below\n 20(%)",
+        "pull-now": "Pull Now",
+        "timezone": "Time Zone",
+        "msg-no-mask-drawn": "Please draw an area mask",
+        "auto-rotate": "Auto Rotate Every",
+        "no-channel-selected": "No camera selected",
+        "set-schedule": "Set Schedule",
+        "add-license": "Add License",
+        "boxes-missing": "Boxes on the image required",
+        "device-key": "Node Key",
+        "bucket-name": "Bucket Name",
+        "go-to-login": "Go to login page",
+        "file-name": "File Name",
+        "chinese-simplified": "Chinese (Simplified)",
+        "create-by-admin": "Created by admin",
+        "security": "SECURITY",
+        "netmask": "Netmask",
+        "static-content": "Static Content",
+        "email": "Email",
+        "channel-name": "Camera Name",
+        "validation.phone": "Not a valid phone",
+        "invalid-license-number": "Invalid license number",
+        "select-file": "Select file",
+        "license-management": "License Management",
+        "september": "September",
+        "no-gpio-device": "No GPIO node",
+        "greater-age3-male": "Your business attract male crowd from age 36 to 55",
+        "authentication-settings": "Authentication Settings",
+        "since.months": "%s month%s ago",
+        "username": "Username",
+        "mobile-devices": "Mobile Devices",
+        "report-face-indexing": "Face Indexing",
+        "msg-incorrect-login": "Remaining %s tries",
+        "hostport-repeats": "Host+Port repeats",
+        "edit-counsel": "Edit Counselling",
+        "error-loading-image": "Error loading image",
+        "neutral-female": "Your stores are attracting more female customers but they are not happy",
+        "node": "Node",
+        "no-device-user": "Node not assigned to this user",
+        "male": "Male",
+        "refresh-stream": "Refresh Stream",
+        "name-server": "Name Server",
+        "confirmation": "Confirmation",
+        "no-of-video-loss": "No. of Video Loss",
+        "direction-info-tooltip": "Net count is based on people moving in this direction",
+        "vehicle": "Vehicle",
+        "unlimited": "Unlimited",
+        "event-value": "Event Value",
+        "friday": "Friday",
+        "camera-details": "Cameras",
+        "msg-cannot-delete-default-bucket": "Default buckets cannot be deleted",
+        "no-people-in": "People In",
+        "msg-event-info": "List of events due to this analytics.",
+        "make": "Make",
+        "not-found": "Not Found",
+        "report-video-blur": "Camera Tampering",
+        "validation.maxSize": "Maximum size is %2$d",
+        "events": "Events",
+        "alert-rule-delete-failed": "Alert rule deletion failed",
+        "user-deleted": "User Deleted",
+        "min-duration-info": "Minimum Duration targets must remain in view to be tracked",
+        "features": "Features",
+        "current-password": "Current Password",
+        "english": "English",
+        "registration-no": "Registration No.",
+        "notification": "Notifications",
+        "role-deleted": "Role Deleted",
+        "no-cameras": "No cameras ",
+        "report-area-intrusion": "Intrusion Detection",
+        "view-user": "(view user)",
+        "sudden-braking": "Sudden Braking",
+        "device-token-missing": "Device token required",
+        "description": "Description",
+        "device-name-not-found": "Node Name not found",
+        "second(s)-ago": "Second(s) Ago",
+        "monitor": "Monitor",
+        "minimum-object-size": "Minimum Object Size",
+        "report-people-counting": "People Counting",
+        "activate-vca": "Activate Analytics",
+        "frame-rate": "Frame rate",
+        "device-id-missing": "Device ID required",
+        "license-details": "License Details",
+        "least-visits-sites": "least visited sites",
+        "admin-settings": "Admin Settings",
+        "no-label": "Unlabelled",
+        "update-limit-settings-successfully": "update limit settings successfully.",
+        "msg-device-limit-reach": "You have already added the total number of cameras allowed for this node type",
+        "security-reports": "Security Reports",
+        "top-unhappy-store": "Most unhappy stores",
+        "emotion-vs-time": "Emotion Vs. Time",
+        "audit-detail": "AuditLog Details",
+        "activated": "Activated",
+        "event-vca-people-counting": "People counting",
+        "location": "Location",
+        "saving": "Saving",
+        "alert-list": "Alert List",
+        "msg-cannot-edit-default-bucket": "Default buckets cannot be edited",
+        "apply": "Apply",
+        "edit-license": "Edit License",
+        "host": "Host",
+        "high": "High",
+        "msg-people-counting-region-limit": "You cannot draw more than two regions",
+        "device-name": "Node Name",
+        "local-license-management": "My Licenses",
+        "event-vca-audienceprofiling": "Audience Profiling",
+        "report-crowd-detection": "Crowd Density",
+        "bucket-logo": "Bucket Logo",
+        "label": "Labels",
+        "percentage": "Percentage",
+        "hours": "Hours",
+        "validation.notFound": "Object not found for id %2$s",
+        "event-video": "Event Video",
+        "map-view": "Map View",
+        "send-via": "Delivery Method",
+        "delete-all": "Delete All",
+        "greater-age1-female": "Your business attract female crowd below age 20",
+        "periodic-reports": "Periodic Reports",
+        "prefs-mobile-mess-missing": "Mobile message value missing",
+        "most-incidents": "Most Incidents",
+        "edit-details": "Edit Details",
+        "edit-profile": "Edit Profile",
+        "assign-devices": "Assign Nodes",
+        "alertname-label": "Alert name, labels or location.",
+        "no-events-found": "No events found",
+        "above": "Above",
+        "unavailable": "No Data Found",
+        "moderate": "Moderate",
+        "otp-login": "OTP Login",
+        "visit-today": "visited today",
+        "loggedin-user-list": "Logged In Users List",
+        "ftp-server-required": "FTP Server required",
+        "referer": "Referer",
+        "idling": "Idling",
+        "running-on": "Running on",
+        "dashboard": "Dashboard",
+        "add-bucket": "Add Bucket",
+        "plp-count-business-analysis": "What we think of your business visitors profile",
+        "mac-address": "MAC address",
+        "emotion": "Emotion",
+        "click-here": "Click here",
+        "category": "Category",
+        "draw": "Draw",
+        "user-logged-in": "User Logged In",
+        "event-vca-video-blur": "Camera Tampering",
+        "msg-drag-drop-nodes-for-report": "Drag and Drop devices here for report generation",
+        "start-time": "Start Time",
+        "views": "Views",
+        "sudden-acceleration": "Sudden Acceleration",
+        "role-edit": "Edit Role",
+        "specify-password": "Specify Password",
+        "phone": "Phone",
+        "role-name-missing": "Role name required",
+        "enable-cloud-analytic": "Enable Cloud Analytic",
+        "msg-select-bucket": "Please select Customer ID",
+        "datetime": "DateTime",
+        "node-information": "Node Information",
+        "monthly": "Monthly",
+        "report-info-missing": "Report information required",
+        "eng": "en",
+        "end": "End",
+        "vca-debugger": "VCA Debugger",
+        "session-expired": "Session expired",
+        "zoom-in": "Zoom In",
+        "role": "Role",
+        "footer-info-massage": "Best viewed using Mozilla Firefox (3.5 or newer) with Adobe Flash Player (10.0 or newer).",
+        "pass-reset-submitted": "Password reset submitted!",
+        "schedule-created": "Schedule created",
+        "svg-string2-missing": "SVG string required",
+        "msg-account-suspended": "This account has been suspended.",
+        "event-vca-internal-error": "Vca Internal Error",
+        "show-recording": "Show Recording",
+        "snapshot-history": "Snapshot History",
+        "report-generated-on": "Report generated on",
+        "happy-male": "Your stores are attracting more male customers and they are happy ",
+        "copyright": "Copyright © 2014",
+        "validation.url": "Not a valid URL",
+        "system-message": "System Message",
+        "phone-missing": "Phone required",
+        "brush-draw-area": "Brush to draw the area",
+        "view-users": "(view users)",
+        "password-space": "Password doesnot accept space",
+        "info-not-available": "Information not available",
+        "edit-alert": "Edit Alert Rule",
+        "auto-discovery": "Auto Discovery",
+        "pos-management": "POS Management",
+        "event-veh-speeding": "Speeding",
+        "immobilize": "Immobilize",
+        "loading-image": "Loading image ...",
+        "unsuspend": "Unsuspend",
+        "cameras": "Cameras",
+        "phi-sensitivity-info": "Sensitivity (1 ~ 40, low to high)",
+        "event-disk-full": "Recording disk full",
+        "generating-heatmap": "Generating Heatmap",
+        "end-time": "End Time",
+        "company-id-already-in-use": "Company Id Already in use",
+        "poi-added": "POI added",
+        "face-id": "Face ID",
+        "disconnect-device": "nodes are disconnected",
+        "msg-search-lan-devices": "Would you like to automatically search the local area network for available cameras?",
+        "port-number": "Port number",
+        "event-intercom-visitor-alert": "Intercom Alert",
+        "no-settings-available": "No settings available",
+        "january": "January",
+        "validation.required": "Required",
+        "camera-name": "Camera Name",
+        "vca-state-WAITING": "Processing request",
+        "db-access": "Db Access",
+        "old-password-missing": "Old password required",
+        "search": "Search",
+        "params-value": "Parameter Value",
+        "latitude": "Latitude",
+        "with-access": "With Access",
+        "summary": "Summary",
+        "maximum-concurrent-vca": "Maximum Concurrent Vca",
+        "edit-poi": "Edit POI",
+        "no-of-perimeter-defense": "No. of Perimeter Defense",
+        "filter-label": "Click to select event types",
+        "push-notification": "Notification to Phone Apps",
+        "visits-per-site": "visits per site",
+        "days": "Days",
+        "confirm-activation": "Confirm activation",
+        "top-happy-store": "Most happy stores",
+        "store-with": "Stores with",
+        "nodes": "Nodes",
+        "msg-no-ie-support-event-video": "Event video playback is not supported in Internet Explorer. Please click download to save the video file to your computer.",
+        "driver": "Driver",
+        "generate": "Generate",
+        "positive-male-negative-female": "-ve female / +ve male ",
+        "account": "Account",
+        "skip-missing": "Skip required",
+        "registration-in-progress": "Registering ...",
+        "presets": "Presets",
+        "ptz-direction-missing": "PTZ direction required",
+        "validation.invalid": "Incorrect value",
+        "queue-count-multiplier": "Queue Count Multiplier",
+        "view-snapshot": "View Snapshot",
+        "node-id-missing": "Node ID required",
+        "xls": "XLS",
+        "edit-announcement": "Edit Announcement",
+        "device-doesnot-belong-bucket": "Device doesn\u0027t belong to this bucket. ",
+        "male-percent": "Male(%)",
+        "sample": "Sample",
+        "msg-traffic-flow-region-limit": "You cannot draw more than 3 areas",
+        "sync-node": "Sync Node",
+        "announcement-id-missing": "Announcement ID required",
+        "pass-dont-match": "Passwords do not match",
+        "device-management": "Device Management",
+        "assign-features": "Assign Features",
+        "generate-access-key": "Generate Access Key",
+        "alerts-sent": "Alert(S) Sent",
+        "clear-location": "Clear Filters",
+        "edit-configuration": "Edit Configuration",
+        "new-password": "New Password",
+        "event-veh-sudden-braking": "Sudden Braking",
+        "alert-rule-updated": "Alert Rule updated",
+        "msg-confirm-node-replacement": "This license number has been activated on another node.\u003cbr/\u003e\u003cbr/\u003eDo you want to replace it with this node?",
+        "thrus": "Thrusday",
+        "event-connection-lost": "Connection lost",
+        "analytics-object-counting": "Trip Wire Counting",
+        "response-part": "Response Part",
+        "prefs-screen-moderate-enabled-missing": "Screen moderate preference required",
+        "admin-role-name": "Administrator",
+        "angry": "angry",
+        "female-percent": "Female(%)",
+        "schedules": "Schedules",
+        "scheduler": "Scheduler",
+        "day(s)-ago": "Day(s) Ago",
+        "period": "Period",
+        "type-not-selected": "Announcement Type Not Selected",
+        "expired-license-number": "Expired License Number",
+        "select-a-device": "Please select a device",
+        "centroid-info-tooltip": "Centroid representation size of moving targets",
+        "registration-cancelled": "Registration has been cancelled",
+        "generate-report-frequency-missing": "Report Generation Frequency is missing.",
+        "uploader": "Uploader",
+        "activated-on": "Activated on",
+        "time-range-must-less-than-a-week": "Please choose a range that is less than a week",
+        "alert-name": "Alert Name",
+        "on-screen": "On-screen",
+        "duplicate-device-key": "Device with same device-key already exists.",
+        "event-date": "Event Date",
+        "hour(s)-ago": "Hour(s) Ago",
+        "cloud-access-authentication": "Cloud Access Authentication",
+        "neutral": "Neutral",
+        "msg-mark-checkbox-to-assign": "Please mark the checkbox to assign nodes to this user.",
+        "all-events": "All Events",
+        "msg-select-a-bucket": "Please select a Bucket",
+        "readonly-view": "Read-only View",
+        "min-objectSize-info-tooltip": "Objects smaller than this size will be ignored. Percent values are relative to the camera view",
+        "asset-tracking": "Asset Tracking",
+        "top-female-store": "most female visitors",
+        "corrupted-vca-configuration": "Corrupted VCA Configuration.",
+        "engine-status": "Engine Status",
+        "validation.isTrue": "Must be checked",
+        "singular-view-detail": "(view detail)",
+        "date": "Date",
+        "create-role": "Create Role",
+        "analytics-video-blur": "Camera Tampering",
+        "data": "Data",
+        "happen-at": "Happened At",
+        "immobilized": "Immobilized",
+        "site-name": "Site Name",
+        "max-user-count": "Max User Count",
+        "config": "Config",
+        "february": "February",
+        "report-audience-profiling": "Audience Profiling",
+        "monitor-events": "Events to monitor",
+        "add-model": "Add model",
+        "leave-empty": "Leave empty for no change",
+        "saved-successful": "Saved successfully",
+        "greater-age4-female": "Your business attract older female crowd above age 55",
+        "msg-empty-ttl": "Expiry duration is empty",
+        "no-of-users": "No. of Users",
+        "report-type": "Report Type",
+        "password-missing": "Password required",
+        "select-one-event": "Select atleast one event to monitor",
+        "duration": "Duration",
+        "unknown-analytics-type": "Unknown Analytics Type",
+        "device-options": "Device Options",
+        "below": "Below",
+        "prefs-mobile-moderate-missing": "Mobile moderate value missing",
+        "queue-name": "Queue Name",
+        "report-generation-frequency": "Report Generation Frequency",
+        "view": "View",
+        "prefs-mobile-moderate-enabled-missing": "Mobile moderate preference required",
+        "device-added": "Node Added",
+        "select-one-device": "Select atleast one node to monitor",
+        "greater-age2-female": "Your business attract younger female crowd from age 21 to 35",
+        "intercom-id-missing": "Intercom ID required",
+        "alert-rule-id-missing": "Alert rule ID missing",
+        "ecodrive-reports": "Fleet Management Reports",
+        "analytics-running": "Analytics Running",
+        "invalid-additional-params": "Invalid additional params",
+        "msg-bucket-logo-size": "Image size must be 221 X 34",
+        "headers": "Headers",
+        "additional-params": "Additional Parameters",
+        "not-immobilized": "Not Immobilized",
+        "msg-define-analytics-line": "Please define the line to enable objects counting",
+        "required": "Required",
+        "please-input-required-settings": "Please input required settings",
+        "count-by-region": "By Region",
+        "vca-current-command": "Current VCA Command",
+        "capabilities": "Capabilities",
+        "msg-accesskey-license-mismatch": "Access Key and License belong to different companies",
+        "routeadded": "Route Added Successfully.",
+        "channel-number": "Camera Number",
+        "event-veh-sudden-left": "Sudden Left",
+        "angle": "Angle",
+        "noti-level-missing": "Notification level required",
+        "commercial": "Commercial",
+        "follow-selected-vehicle": "Follow Selected Vehicle",
+        "video-file-not-available": "Video file not available at the moment",
+        "no-recording-available": "No recording available",
+        "invalid-value": "Invalid value",
+        "sms-notification": "SMS Notification",
+        "user-added": "User Added",
+        "ftp-server-upload-check-missing": "Upload to ftp server is not checked.",
+        "generate-report": "Generate report",
+        "devicekey-or-hostport": "Either device key or host+port is required",
+        "route-history": "Route History",
+        "node-cameras": "Node Cameras",
+        "camera": "Camera",
+        "bucket-management": "Bucket Management",
+        "generating-excel": "Generating Excel",
+        "show-last": "Show summary of last ",
+        "notification-alert-rule": "Alert Rule Management",
+        "nod": "node(s)",
+        "condominium-management": "Condominium Management",
+        "event-vca-crowd": "Crowd Density",
+        "pos-reports": "POS Reports",
+        "4-age-group": "Age group",
+        "bucket-updated": "Bucket updated",
+        "name": "Name",
+        "prefs-screen-critical-missing": "On-screen critical value missing",
+        "mobile-app": "Mobile App",
+        "weeks": "Weeks",
+        "event-id-missing": "Event ID required",
+        "base64-image-missing": "Base64 image required",
+        "since.minutes": "%s minute%s ago",
+        "invalid-alert-rule-id": "Invalid alert rule id",
+        "Location-data-retrieval-failed": "Location data retrieval failed",
+        "services": "Services",
+        "analytics-people-counting": "People Counting",
+        "save-as-preset": "Save As Preset",
+        "fleet-management-caps": "FLEET MANAGEMENT",
+        "report-format-missing": "Report Format is missing.",
+        "event-chart": "Event Chart",
+        "poor-connection": "Poor connection",
+        "permissions": "Permissions",
+        "queue-name-required": "Queue Name is required",
+        "camera-name-missing": "Camera name missing",
+        "device-details": "Node Details",
+        "analytics-perimeter-defense": "Perimeter Defense",
+        "advanced-settings": "Advanced Settings",
+        "msg-no-detection-area": "No detection area drawn",
+        "full-name": "Full Name",
+        "EXPIRED": "Expired",
+        "event-vca-perimeter": "Perimeter Defense",
+        "vca-state-INACTIVE": "Inactive",
+        "landmark": "Landmark",
+        "instruction-baidu-map": "Please enable \"Mixed Content\" in browser",
+        "models": "Models",
+        "cloud-recording": "Local Recording",
+        "msg-address-not-found": "Address not found, please input coordinates manually.",
+        "paired-camera": "Paired Camera",
+        "schedule": "Schedule",
+        "plp-count-not-configrue": "People counting is not configured in your account.",
+        "analytics-crowd-detection": "Crowd Density",
+        "prefs-email-low-enabled-missing": "Email low preference required",
+        "my-account": "My Account",
+        "snapshot-interval": "Snapshot Interval",
+        "name-missing": "Name required",
+        "role-id-missing": "Role ID required",
+        "cancel": "Cancel",
+        "follow-vehicle": "Follow Vehicle",
+        "event-veh-sudden-acceleration": "Sudden Acceleration",
+        "kia-square": "KAI Square",
+        "21": "21",
+        "announcement-management": "Announcement Management",
+        "node-replacement-in-progress": "Replacing node",
+        "msg-node-vca-not-licensed": "%s is not licensed to run this vca",
+        "msg_internet_required": "Internet connection is required to view this user guide",
+        "download-guide": "Download the Instruction Guide",
+        "label-info": "Press Enter after typing a label.",
+        "company-id-missing": "Company ID required",
+        "tue": "Tuesday",
+        "profiling-data-not-available-yet": "Audience Profiling data is not available yet",
+        "activate": "Activate",
+        "point-of-interests": "Point of Interests",
+        "crosssite": "Cross-site Benchmarking",
+        "november": "November",
+        "plp-visit": "people visited",
+        "march": "March",
+        "event-details": "Event Details",
+        "audit-log": "Audit Log",
+        "alert-deleted": "Alert Rule Deleted",
+        "video-analytics": "Video Analytics",
+        "restart": "Restart",
+        "saturday": "Saturday",
+        "announcement-deleted": "Announcement Deleted Successfully",
+        "preferences-object-not-available": "You have not set any preference yet. Please save one.",
+        "description-limit-exceeded": "Description has exceeded 255 character limit",
+        "object-size": "Object Size",
+        "event-veh-sudden-up": "Sudden Up",
+        "instance-id-missing": "Instance ID required",
+        "expires-on": "Expires on",
+        "authentication": "Authentication",
+        "noti-level": "Notification Level",
+        "bucket-description-missing": "Bucket description required",
+        "line-number": "Line number",
+        "noti-level-not-selected": "Notification level not selected",
+        "filter": "Filter",
+        "graphs": "Graphs",
+        "all-disconnect-device": "All nodes are disconnected",
+        "host-or-port-missing": "Missing host or port",
+        "local-recording": "Local Recording",
+        "event": "event(s)",
+        "confirm-camera-changes": "Confirm camera changes?",
+        "all": "All",
+        "event-ids-missing": "Event IDs required",
+        "emtpy-value": "Empty value",
+        "company-id": "Company ID",
+        "channel-id": "Camera No.",
+        "msg-no-counting-line": "Please draw a counting line",
+        "since.format": "MMM d, yyyy",
+        "service-name": "Service Name",
+        "event-vca-traffic": "Human Traffic Flow",
+        "submit": "Submit",
+        "zoom-out": "Zoom Out",
+        "powered-by": "Powered by KAI Square.",
+        "unknown-type": "Unknown Type",
+        "vehicle-devices": "Devices",
+        "msg-more-params-info": "Set name-value pairs here to overwrite the default parameters (case-sensitive)\u003cbr/\u003e(e.g. --ppopthresh 3)",
+        "marker-range": "Marker Range",
+        "one-time-pass": "Access Key",
+        "msg-account-locked": "Your account is locked for %s minutes.",
+        "unknown": "The system has encountered a problem. Please try again after some time. If the problem persists, please contact customer care.",
+        "to-missing": "To Date required",
+        "node-update-required": "Node Update Required",
+        "validation.unique": "Must be unique",
+        "thursday": "Thursday",
+        "report-traffic-flow": "Human Traffic Flow",
+        "undo": "Undo",
+        "loading": "Loading",
+        "msg-video-load-error": "Error loading live video url",
+        "unknown-license-status": "Unknown License Status",
+        "greater-age2-male": "Your business attract younger male crowd from age 21 to 35",
+        "all-device-connect": "All nodes working properly",
+        "role-assignments": "Role assignments required",
+        "last-location": "Last Location",
+        "update": "Update",
+        "most-visits-sites": "most visited sites",
+        "key-missing": "Key required",
+        "event-storage-started": "Recording started",
+        "apply-filter": "Apply Filter",
+        "ftp-username-required": "FTP Username required",
+        "logout": "Logout",
+        "msg-input-devicekey-host": "Please input either node key or host+port",
+        "since.days": "%s day%s ago",
+        "no-of-obj-count": "No. of Counting Triggers",
+        "least-active-cameras": "Least Active Sites",
+        "expires-in": "Expires in",
+        "avg-visits": "Average visits",
+        "reg-already-used": "This registration number has already been used",
+        "invalid-node-id": "Invalid node ID",
+        "bucket-id-missing": "Bucket ID missing",
+        "live-location": "Live Location",
+        "sales-amount": "Sales amount",
+        "service-id-missing": "Service ID required",
+        "load": "Load",
+        "age": "Age",
+        "no-schedule-day-selected": "No scheduled day selected",
+        "no-data": "No Data",
+        "event-connection-poor": "Connection poor",
+        "top-oldCrowd-store": "most mature visitors",
+        "hourly": "Hourly",
+        "devices-name-placeholder": "Device name/Group or Model",
+        "msg-bucket-exact-logo-size": "Image dimension cannot be greater than 221 X 34",
+        "analytics-face-indexing": "Face Indexing",
+        "chi-traditional": "zh-tw",
+        "driver-point": "Market is the must-reach check-in point for the driver.",
+        "change-device": "Change Device",
+        "total-out": "Total out",
+        "female": "Female",
+        "trigger-count": "Trigger Count",
+        "search-vehicle-history": "Search Vehicle History",
+        "bucket-deleted": "Bucket deleted",
+        "username-in-use": "This username is already in use",
+        "msg-duration-info": "Allowed loitering Duration",
+        "role-created": "Role created",
+        "validation.past": "Must be in the past",
+        "deactivate-vca": "Deactivate Analytics",
+        "settings": "SETTINGS",
+        "gender": "Gender",
+        "debugger": "Debugger",
+        "specify-username": "Specify Username",
+        "most-visits": "Most visits",
+        "event-vca-loitering": "Loitering Detection",
+        "event-vca-intrusion": "Intrusion Detection",
+        "bucket-has-no-user": "Bucket has no user",
+        "port": "Port",
+        "New-password-missing": "New password required",
+        "event-email": "Event Email",
+        "host-ip": "Hostname or IP address",
+        "download-video": "Download Video",
+        "time-card": "Time Card",
+        "happy": "Happy",
+        "pos-folder-name": "/demo/demo/demo",
+        "april": "April",
+        "access-on-cloud": "Access on Cloud",
+        "vehicles": "Vehicles",
+        "delete-successful": "Delete Successful",
+        "no-of-faces": "No. of Faces Detected",
+        "load-preset": "Load Preset",
+        "query-snapshot-history": "Query Snapshot History",
+        "msg-no-gps-device": "No gps device attached to this vehicle",
+        "send-report-by-email": "Send reports by email",
+        "email-address": "Email Address",
+        "cut-point": "Cut point",
+        "add": "Add",
+        "fleet-management": "Fleet Management",
+        "prefs-sms-critical-enabled-missing": "SMS critical preference required",
+        "confirm-analytics-delete": "Confirm to remove this analytics?",
+        "user-guide": "User Guide",
+        "after-install-flash-player-info": "After installation, please close and reopen browser",
+        "choose-groups": "Label(s):",
+        "msg-have-reg-number": "Do you have a node registration number",
+        "alert-rule-created": "Alert Rule Created",
+        "logo-left-text": "Video Analytics as-a-Service",
+        "active": "Active",
+        "delete-user": "Delete User",
+        "user-id-missing": "User ID missing",
+        "active-instance": "Active Camera",
+        "users-logged-in": "Users Logged In",
+        "empty-summary": "Summary cannot be empty",
+        "choice-hours": "Hours",
+        "no-of-loitering": "No. of Loitering",
+        "no-of-intrusion": "No. of Intrusion",
+        "historical-alerts": "Historical Alerts",
+        "full-screen": "Full Mode ",
+        "day-events": "day events",
+        "role-management": "Role Management",
+        "msg-draw-two-regions": "Draw two regions",
+        "noti-period": "Notification Period",
+        "no-video-loaded": "No video loaded",
+        "bucket": "Bucket",
+        "incorrect-user-pass": "Invalid company, username or password.",
+        "seconds": "seconds",
+        "anlytics-running": "analytics running across",
+        "count-by-line": "By Line",
+        "camera-controls": "Camera Controls",
+        "up-to-date-time-missing": "Upto date time required",
+        "notification-management": "Notification Management",
+        "audit-id-missing": "Audit ID required",
+        "vehicle-details": "Vehicle Details",
+        "bi-reports": "BI Reports",
+        "device-exist-in-inventory": "This device key has already been used in inventory",
+        "upload-software-update": "Upload Software Update",
+        "license-updated": "License Updated",
+        "magnitude": "Magnitude",
+        "upload-report-to-ftp": "Upload report to FTP",
+        "username-missing": "Username required",
+        "status": "Status",
+        "msg-double-click-to-rename": "Double-click on the region to set the name",
+        "email-phone": "Email/Phone",
+        "msg-define-analytics-region": "Please define the region(s) to enable analytics by drawing the area on the video",
+        "media-type": "Media Type",
+        "customer-support": "Customer Support",
+        "only-assign-one-camera": "Only can assign one camera",
+        "register": "Register",
+        "confirm-suspension": "Confirm suspension",
+        "from-missing": "From Date required",
+        "msg-sensitivity-info": "Sensitivity (1 ~ 250, low to high)",
+        "user-name": "User Name",
+        "kainode-register-success": "Registration successful",
+        "report-perimeter-defense": "Perimeter Defense",
+        "drag-drop": "Drag and drop channel from tree",
+        "msg-range-too-large": "Please choose a range that is less than 24 hours",
+        "mask-info-tooltip": "Mask percentage change",
+        "registration-number-missing": "Registration number required",
+        "select": "Select",
+        "node-log-management": "Node Logs",
+        "suspend": "Suspend",
+        "msg-db-access-warning": "Warning! Deleting database entries may stop the running cloud server.",
+        "cancel-changes": "Cancel Changes",
+        "remote-shell": "Remote Shell",
+        "prefs-email-critical-missing": "Email critical value missing",
+        "countLimit-info-tooltip": "Set count value to trigger alert (value of total in - total out)",
+        "event-veh-sudden-right": "Sudden Right",
+        "ACTIVE": "Active",
+        "send": "Send",
+        "msg-choose-timerange": "Please select \u0027From\u0027 and \u0027To\u0027 based on your computer time",
+        "msg-choose-startdate": "Please select \u0027Start Date/time\u0027 and \u0027End Date/Time\u0027 based on your computer time",
+        "software-update-management": "Software Update Management",
+        "remaining-attempt": "Remaining tries",
+        "device-id": "Node ID",
+        "october": "October",
+        "event-type": "Event Type",
+        "add-new-device": "Add New Node",
+        "filter-markers": "Marker filteration",
+        "phi-info-tooltip": "phi value",
+        "msg-reset-email-sent": "A message containing a link to reset your password has been sent to your email address.",
+        "bucket-added": "Bucket added",
+        "welcome": "Welcome",
+        "singular-disconnect-device": "node is disconnected",
+        "send-noti-period": "Send notification periodically",
+        "avg-incidents": "Average Incidents",
+        "analytics-area-loitering": "Loitering Detection",
+        "analytics-area-intrusion": "Intrusion Detection",
+        "access-key-management": "Access Keys",
+        "network-status": "Network Status",
+        "no-of-cam-tampering": "No. of Tampering",
+        "schedule-endtime": "Schedule End Time",
+        "manual": "Manual",
+        "schedule-updated": "Schedule updated",
+        "ttl-missing": "Time to live required",
+        "periodic-report-generated": "Periodic Report Generated",
+        "most-recent": "Most Recent",
+        "type": "Type",
+        "prefs-mobile-mess-enabled-missing": "Mobile message preference required",
+        "yearly": "Yearly",
+        "speed": "Speed",
+        "since.seconds": "%s second%s ago",
+        "choose-type": "Report Type",
+        "no-of-nodes": "No. of Nodes",
+        "devicekay-repeats": "Devicekey repeats",
+        "filter-labels": "Click to select labels",
+        "edit-bucket": "Edit Bucket",
+        "from": "From",
+        "live-view": "Live View",
+        "invalid-device-id": "Invalid device ID",
+        "top-young-store": "most young visitors",
+        "clear-all": "Clear All",
+        "more": "More",
+        "device": "Node",
+        "height": "Height",
+        "node-camera-id-missing": "Node camera ID required",
+        "total-marker": "No. of Marker",
+        "age-summary": "Age Summary",
+        "plp-data-not-available": "People Counting data is not available yet",
+        "wed": "Wednesday",
+        "add-alert": "Create Alert Rule",
+        "greater-age4-male": "Your business attract older male crowd above age 55",
+        "since.years": "%s year%s ago",
+        "registered-on-cloud": "Registered on Cloud",
+        "choose-cameras": "Camera(s):",
+        "pulling": "Pulling",
+        "event-veh-sudden-down": "Sudden Down",
+        "daily": "Daily",
+        "cloud-recording-enabled": "Cloud Recording Enabled",
+        "navigation": "Navigation",
+        "prefs-sms-critical-missing": "SMS critical value missing",
+        "confirm-delete": "Confirm to delete",
+        "account-statements": "Account Statements",
+        "time": "Time",
+        "age-35-55-per": "Age\n35-55(%)",
+        "email-exists": "Email already exists",
+        "empty-camera": "No camera on selected node",
+        "monitor-all-devices": "Monitor all devices that has this event",
+        "msg-vca-change-info": "Type the params to change (case-sensitive) \u003cbr/\u003e e.g. -phi 7 -R 3",
+        "ftp-password-missing": "Password missing.",
+        "available-log": "Available Log",
+        "password-incorrect": "Password incorrect",
+        "camera-feed": "Camera Feed",
+        "happy-female": "Your stores are attracting more female customers and they are happy ",
+        "event-connected": "Connected",
+        "vca-state-CMDERR": "Request failed",
+        "mon": "Monday",
+        "set-time": "Set Time",
+        "refresh-frequency": "Refresh Frequency",
+        "outbound-streams": "active video stream(s)",
+        "configuration-updated": "Configuration Updated",
+        "recheck-status": "Re-check status",
+        "browser": "Browser",
+        "add-channel": "Add Camera",
+        "prefs-screen-critical-enabled-missing": "Screen critical preference required",
+        "failed-to-reset-camera-view": "Failed to reset camera view",
+        "since.hours": "%s hour%s ago",
+        "age-vs-time": "Age Vs. Time",
+        "change-password": "Change Password",
+        "area-changed": "Area changed",
+        "analytics-request-sent": "Request sent",
+        "cloud-recording-enabled-missing": "Cloud recording enabled/disabled flag required",
+        "by-group": "Aggregated",
+        "pair-intercom-and-camera": "Pair Intercom and Camera",
+        "validation.match": "Must match %2$s",
+        "un-link": "Unlink",
+        "odometer": "Odometer",
+        "event-passive-infrared": "Infrared Sensor Triggered",
+        "event-node-registered": "Node registered",
+        "max-device-count": "Max Device Count",
+        "node-info": "Node Information",
+        "device-login": "Device Login",
+        "just-now": "Just Now",
+        "sensor": "Sensor",
+        "validity": "Validity",
+        "locate": "Locate",
+        "weekly-summary-report": "Weekly Summary Report of your account on KAI Unified Platform",
+        "params": "Parameters",
+        "remember_me": "Remember me",
+        "edit-device": "Edit Node",
+        "event-id": "Event ID",
+        "total-incidents": "Total Incidents",
+        "company-product-title": "KAI Video Analytics as-a-Service",
+        "already-used-device-key": "This device key has already been used in inventory",
+        "change-parameters": "Change Parameters",
+        "inventory-management": "Inventory Management",
+        "forgot-your-password": "Forgot password ?",
+        "msg-invalid-authKey": "Invalid authentication key! \u003cbr/\u003ePlease reset your password again",
+        "assign-vehicles": "Assign Vehicles",
+        "report-query": "Report Query",
+        "content-missing": "Content missing",
+        "singular-connect-device": "node is connected",
+        "user-management": "User Management",
+        "ftp-password-required": "FTP Password required",
+        "minute(s)-ago": "Minute(s) Ago",
+        "happiness": "Happiness",
+        "user-login": "User Login",
+        "no-device-on-server": "device not found on server",
+        "prefs-email-critical-enabled-missing": "Email critical preference required",
+        "validation.equals": "Must be equal to \u0026{%2$s}",
+        "registration": "Registration",
+        "user-id": "User ID",
+        "generating-pdf": "Generating PDF",
+        "user-auth-failed": "User Authentication Failed",
+        "right-reserved": "All Rights Reserved",
+        "msg-confirm-license-unsuspend": "Confirm to unsuspend license?",
+        "message": "Message",
+        "face-detected-time": "No. of faces detected vs Time ",
+        "incorrect-otp": "Incorrect Access Key",
+        "login": "Login",
+        "analytics-queue-counting": "Queue Counting",
+        "choose-sites": "Choose Sites",
+        "password": "Password",
+        "language-not-selected": "Language not selected",
+        "validation.before": "Must be before %2$s",
+        "content-not-available": "Content not available yet",
+        "validation.ipv6": "Not a valid IP v6 address",
+        "features-currently-enabled": "Features Currently Enabled",
+        "system-setting": "System Setting",
+        "validation.ipv4": "Not a valid IP address",
+        "delete": "Delete",
+        "event-vca-face": "Face Indexing",
+        "close": "Close",
+        "folder-name": "Folder Name",
+        "to": "To",
+        "choice-days": "Days",
+        "schedule-starttime": "Schedule Start Time",
+        "buckets": "Buckets",
+        "confirm-analytics-activate": "Confirm to activate this analytics?",
+        "conversion-rate": "Conversion Rate",
+        "sun": "Sunday",
+        "poi": "POI",
+        "indoor-maps": "Indoor Maps",
+        "gender-vs-time": "Gender Vs. Time",
+        "ftp-server-name-missing": "FTP Server missing.",
+        "months": "Months",
+        "sharpness": "Sharpness",
+        "add-user": "Add User",
+        "view-details": "(view details)",
+        "periodic-report-management": "Periodic Report Management",
+        "preset-name": "Preset Name",
+        "msg-license-delete-confirmation": "Confirm to delete?\u003cbr/\u003e\u003cbr/\u003eThis action will also remove any node activated using this license.",
+        "model-id-missing": "Device model ID required",
+        "mobilize": "Mobilize",
+        "top-5": "Top 5",
+        "pnp": "PnP",
+        "model-id": "Model ID",
+        "access": "Access",
+        "prefs-screen-moderate-missing": "On-screen moderate value missing",
+        "by-duration": "By Duration",
+        "kainode-replacement-success": "Node has been successfully replaced",
+        "description-missing": "Description required",
+        "days-events": "days events",
+        "no-records-found": "No records found",
+        "alert-name-missing": "Alert name required",
+        "number-of-channels": "Number of cameras",
+        "analytics-audience-profiling": "Audience Profiling",
+        "alerts": "Alerts",
+        "username-email": "User name, Email etc.",
+        "bucket-path-missing": "Bucket path required",
+        "occurrence-vs-time": "No. of occurrences vs Time",
+        "gas-station": "Gas station",
+        "csv": "CSV",
+        "change-region-name": "Change Region Name",
+        "all-security": "All Security Events",
+        "usernameFNameEmail": "userName/ Full Name/ Email/ Phone",
+        "activity-type": "Service Name",
+        "connect-device": "nodes are connected",
+        "collapse-all": "Collapse All",
+        "reports": "Reports",
+        "analytics-configuration": "Analytics Configuration",
+        "preferences": "Preferences",
+        "excel": "Excel",
+        "download-recording": "Download Recording",
+        "No-heatmap-file-output": "No heatmap file output",
+        "pm": "pm",
+        "filename-missing": "Filename required",
+        "edit": "Edit",
+        "other": "OTHER",
+        "set-location": "Set Region Filter",
+        "analytics-type-missing": "Analytics type required",
+        "save": "Save",
+        "not-scheduled": "Not scheduled (24/7 operation)",
+        "device-assignment": "Node Assignment",
+        "msg-double-click-info": "* Double click on item to see event detail",
+        "schedule-deleted": "Schedule deleted",
+        "analytics-traffic-flow": "Human Traffic Flow",
+        "update-failed": "Update failed",
+        "filter-user": "Filter User",
+        "or": "-------- OR ---------",
+        "generating-trafficflow": "Generating Traffic flow",
+        "ok": "OK",
+        "historical": "Historical",
+        "registration-number": "Registration Number",
+        "validation.future": "Must be in the future",
+        "usage-remaining": "Remaining Uses",
+        "date-time": "Date/Time",
+        "take-missing": "Take required",
+        "invalid-node-camera-id": "Invalid node camera ID",
+        "stream-type-missing": "Stream type required",
+        "edit-route": "Edit Route",
+        "eraser-tool": "Eraser Tool",
+        "prefs-mobile-low-enabled-missing": "Mobile low preference required",
+        "no": "No",
+        "perpetual": "Perpetual",
+        "recording": "Recording",
+        "bus-stop": "Bus stop",
+        "validation.min": "Cannot be lower than %2$d",
+        "license-no": "License No.",
+        "email-notification": "Email Notification",
+        "invalid-time-range": "Invalid range selection(s)",
+        "device-model-required": "Device model ID required",
+        "max-vca-count-missing": "Mac VCA count required",
+        "invalid-user-id": "Invalid user ID",
+        "send-noti": "Send notification(s) to",
+        "choose-traffic-source": "Choose Starting Traffic Source",
+        "announcement-type-missing": "Announcement type required",
+        "width": "Width",
+        "invalid-email": "Invalid Email",
+        "menu": "Menu",
+        "service-apis-used": "Service APIs Used",
+        "chinese-traditional": "Chinese (Traditional)",
+        "max-use-count": "Number of Uses",
+        "num-of-messages-missing": "Number of messages required",
+        "report-formats": "Report Formats",
+        "keyword": "Keywords",
+        "report-area-loitering": "Loitering Detection",
+        "may": "May",
+        "upload-inventory": "Upload Inventory",
+        "crowd-distribution": "Crowd Distribution",
+        "device-recording": "Node Recording",
+        "streaming-session-key-missing": "Streaming session key required",
+        "monday": "Monday",
+        "kainode-confirm-register": "Confirm to register ",
+        "sms": "SMS",
+        "announcement-type": "Announcement Type",
+        "company": "Company",
+        "activation": "Activation",
+        "vca-state-EXITED": "Not running",
+        "select-all-users": "Send notification to all the users in the system",
+        "cannot-self-delete": "You cannot delete your own account. Please contact system administrator.",
+        "password-required": "Password required",
+        "msg-no-feature-selected": "No feature selected",
+        "manage": "Manage",
+        "svg-string1-missing": "SVG string required",
+        "expired": "Expired",
+        "view-type": "View Type",
+        "total-count": "Total Events",
+        "no-device-selected": "No node selected",
+        "msg-blur-sensitivity-info": "Blur Sensitivity (1 ~ 100, low to high)",
+        "grid-text": "Drag grid data to change marker order",
+        "greater-age3-female": "Your business attract female crowd from age 36 to 55",
+        "intercom-live-video": "Intercom Live Video",
+        "assign": "Assign",
+        "storage": "Storage",
+        "gateway": "Gateway",
+        "top-male-store": "most male visitors",
+        "fri": "Friday",
+        "top-active-cameras": "Most Active Sites",
+        "validation.after": "Must be after %2$s",
+        "remarks": "Remarks",
+        "pos-setting": "POS Setting",
+        "license-added": "License Added",
+        "snapshot-recording": "Snapshot Recording",
+        "activity-level": "Activity Level",
+        "ip": "IP Address",
+        "in": "IN",
+        "port-required": "FTP Port required",
+        "ftp-server": "FTP Server",
+        "id": "ID",
+        "incorrect-license-number": "Incorrect License Number",
+        "inventory-id-missing": "Inventory ID required",
+        "pdf": "PDF",
+        "poi-deleted": "POI deleted",
+        "license-has-expired": "License has expired",
+        "created-on": "Created on",
+        "weekly": "Weekly",
+        "total-visits": "Total Visits",
+        "vca-state-ERROR": "Error",
+        "prefs-sms-moderate-enabled-missing": "SMS moderate preference required",
+        "chi-simple": "zh-cn",
+        "filter-bucket": "Filter Bucket",
+        "happy-percent": "Happy(%)",
+        "roles": "Roles",
+        "search-recording": "Search for recording",
+        "email-verification-of-users": "Email Verification Of Users",
+        "business-intelligence": "BUSINESS INTELLIGENCE",
+        "filter-inventory": "Filter Inventory",
+        "email-verification-of-users-missing": "Email verification of users enabled/disabled flag required",
+        "prefs-email-low-missing": "Email low value missing",
+        "event-info": "Event Info",
+        "msg-fill-in-reset-form": "Fill in the form to reset your password",
+        "channel": "Camera",
+        "reset-default-logo": "Reset to default logo",
+        "exception": "Exception",
+        "running-analytics-list": "List of running analytics",
+        "devices": "Nodes",
+        "select-features": "Select Features",
+        "transaction-log": "Transaction Log",
+        "by-camera": "Individual",
+        "prefs-screen-low-missing": "On-screen low value missing",
+        "select-vehicle": "Select a vehicle",
+        "distribution-vs-time": "Distribution vs Time",
+        "companyid": "CompanyID",
+        "stream-type": "Stream Type",
+        "by-count": "By Count",
+        "device-access-denied": "Device access denied",
+        "data-log": "Data Log",
+        "validation.max": "Cannot be greater than %2$d",
+        "invalid-bucket-id": "Invalid bucket ID",
+        "latest-time": "Last Seen",
+        "event-audio": "Audio Sensor Triggered",
+        "selected-channel": "Selected Camera",
+        "download": "Download",
+        "disconnected": "Disconnected",
+        "licenses": "Licenses",
+        "bucket-not-found": "Bucket not found",
+        "bucket-user-limit-missing": "Bucket user limit required",
+        "SUSPENDED": "Suspended",
+        "add-new-route": "Add New Route",
+        "alert-labels": "Alert Labels",
+        "camera-setup": "Camera Setup",
+        "live-track": "Live Track",
+        "delete-import": "Delete after import",
+        "UNUSED": "Unused",
+        "add-announcement": "Add Announcement",
+        "route": "Route",
+        "remove-schedule": "Remove operation schedule",
+        "please-draw-queue-regions": "Please draw region(s) of interest",
+        "sensitivity": "Sensitivity",
+        "new-password-empty": "New password is empty",
+        "path": "Path",
+        "stop": "Stop",
+        "type-running-on-cloud": "Analytics running on Cloud",
+        "vca-state-RUNNING": "Running",
+        "choose-counting-method": "Choose Counting Method",
+        "pos-import-frequency": "POS data import frequency",
+        "max-use-count-missing": "Number of Uses required",
+        "ftp-port-number-missing": "Port number missing.",
+        "create": "Create",
+        "params-name": "Parameter Name",
+        "payload": "Payload",
+        "username-required": "Username required",
+        "retrieving-data": "Retrieving data",
+        "june": "June",
+        "longitude": "Longitude",
+        "wifi-access": "Wifi access",
+        "port-range": "Port Range",
+        "user": "User",
+        "greater-age1-male": "Your business attract male crowd below age 20",
+        "validation.range": "Not in the range %2$d through %3$d",
+        "validation.object": "Validation failed",
+        "hourly-summary-report": "Hourly Summary Report of your account on KAI Unified Platform",
+        "cloud-storage": "Cloud Storage",
+        "no-analytics-running": "No Analytics Running",
+        "msg-confirm-license-suspend": "Confirm to suspend license?",
+        "august": "August",
+        "msg-draw-two-area": "Draw at least two areas for traffic flow map",
+        "july": "July",
+        "add-poi": "Add POI",
+        "chart": "Chart",
+        "daily-summary-report": "Daily Summary Report of your account on KAI Unified Platform",
+        "file-size": "File Size",
+        "neutral-male": "Your stores are attracting more male customers but they are not happy",
+        "msg-select-bucket-user": "Please select bucket/user",
+        "attachment-missing": "Attachment required",
+        "am": "am",
+        "ftp-username-missing": "Username missing.",
+        "profile-not-configrue": "Audience Profiling is not configured in your account.",
+        "NumberOfOccurance": "Number Of Occurance",
+        "breakdown": "Breakdown",
+        "otp-auth-failed": "Access Key Authentication Failed",
+        "update-successful": "Update Successful",
+        "no-device": "No Node",
+        "monitoring": "Monitoring",
+        "channel-id-missing": "Channel ID required",
+        "uploaded-date": "Uploaded Date",
+        "version": "Version",
+        "event-veh-idle": "Idling",
+        "report": "Report",
+        "no-time-type-selected": "Please select Report type",
+        "report-generation-failed": "Report generation failed",
+        "analytics-added": "Analytics Added",
+        "sat": "Saturday",
+        "export-user-list": "Export User List",
+        "loading-chart": "Loading Chart",
+        "msg-choose-running-instance": "Choose an active camera to view the current configuration"
+    };
+
+    /**
+     * Fixme : only parse single char formatters eg. %s
+     */
+    var i18n = function(code) {
+        var message = i18nMessages && i18nMessages[code] || code;
+        // Encode % to handle it later
+        message = message.replace(/%/g, "\0%\0");
+        if (arguments.length > 1) {
+            // Explicit ordered parameters
+            for (var i = 1; i < arguments.length; i++) {
+                var r = new RegExp("%" + i + "\\$\\w", "g");
+                message = message.replace(r, arguments[i]);
+            }
+            // Standard ordered parameters
+            for (var i = 1; i < arguments.length; i++) {
+                message = message.replace(/%\w/, arguments[i]);
+            }
+        }
+        // Decode encoded % to single %
+        message = message.replace("\0%\0", "%");
+        // Imbricated messages
+        var imbricated = message.match(/&\{.*?\}/g);
+        if (imbricated) {
+            for (var i = 0; i < imbricated.length; i++) {
+                var imbricated_code = imbricated[i].substring(2, imbricated[i].length - 1).replace(/^\s*(.*?)\s*$/, "$1");
+                message = message.replace(imbricated[i], i18nMessages[imbricated_code] || "");
+            }
+        }
+        return message;
+    };
+    </script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/layout/main.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/layout/plugins.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/layout/pace.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/localization.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/kupapi.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/kupapi-node.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/utils.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/manager.device.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/events.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/alerts.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/analyticsType.js"></script>
+    <script>
+    if (kupapi.debugMode) {
+        utils.getScript("http://ci.developer.kaisquare.com:9000/public/javascripts/mockdata.js");
+        utils.getScript("http://ci.developer.kaisquare.com:9000/public/javascripts/deviceMockData.js");
+    }
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/kendo/kendo.common.min.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/kendo/moonlight/kendo.ml.custom.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/kendo/kendo.dataviz.default.min.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/kendo/kendo.dataviz.min.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/jquery-ui-timepicker.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/jquery-ui-1.8.11.custom.css">
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/kendo.all.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/jquery.progressbar.min.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/expander.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/style_all.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/common/main.css">
+    <link rel="stylesheet" type="text/css" href="http://ci.developer.kaisquare.com:9000/public/css/default/theme_diff.css">
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/ui_scripts.js"></script>
+    <script type="text/javascript" src="http://ci.developer.kaisquare.com:9000/public/javascripts/authorize.js"></script>
+    <script type="text/javascript">
+    var theme = 'default';
+    kupapi.applicationType = "cloud";
+    kupapi.roleName = "Administrator";
+    kupapi.CdnPath = "/public/css";
+    kupapi.privateCloud = "false" === "true" ? true : false;
+    kupapi.mapSource = "google";
+    kupapi.majorReleaseNo = "5";
+
+    kupInit('kaisquare', utils.throwServerError);
+    deviceManager.initialize();
+
+    $(document).ready(function() {
+        var count = 0;
+        checkAndUpdateFeaturesForUI();
+
+        function onNotificationSuccess(responseData) {
+            if (responseData.result == "ok" && responseData.event != null) {
+                var eventJson = $.parseJSON(responseData.event);
+                var localTime = utils.convertUTCtoLocal(kendo.parseDate(eventJson.time, kupapi.TIME_FORMAT));
+                if (count > 2) {
+                    $("#eventNotification li:nth-last-child(3)").remove();
+                }
+                var html = "<li onclick='alerts.viewDetails(null,\"" + eventJson.id + "\")' class='media-info clearfix'><span id='eventTime' style='display:none;'>" + localTime + "</span><i class='media icon " + eventJson.type + " left'></i><div class='info'><p><a href='javascript:void(0)' class='attract'>" + localizeResource(eventJson.type) + "</a><br><span class='device_name'>" + eventJson.deviceName + "<span></p><p id='timeTrack' class='tal-right less-contrast'><em>" + localizeResource('just-now') + "</em></p></div></li>"
+                $("#eventNotification").prepend(html);
+                udpdateHeaderAlertTime();
+                count++;
+                $("#countBubble").text(count);
+                if (count == 1) {
+                    $("#countBubble").show();
+                }
+
+                //utils.slideDownAlert(eventJson.time, eventJson.type, eventJson.deviceName);
+                receiveCometNotification("", onNotificationSuccess, onFailed);
+
+                if (location.href.indexOf("live/fullview") != -1) {
+                    liveView.viewPortOverlay($.parseJSON(responseData.event));
+                }
+            } else {
+                if (responseData.reason == "no-devices")
+                    return;
+                else if (responseData.reason == "retry") {
+                    receiveCometNotification("", onNotificationSuccess, onFailed);
+                }
+                if (responseData.result == "error" && responseData.reason == "session-expired") {
+                    window.location.href = "/login/timeout";
+                }
+            }
+        }
+
+        function onFailed(responseData) {
+            // do nothing on error
+        }
+
+        receiveCometNotification("", onNotificationSuccess, onFailed);
+
+
+        $("#headerAlert").click(function() {
+            udpdateHeaderAlertTime();
+        });
+
+        function udpdateHeaderAlertTime() {
+            var time = $("#eventNotification li:nth-last-child(5)").find("span:first").text();
+            var displayTime;
+            if (!utils.isNullOrEmpty(time)) {
+                var differentObject = utils.getDateDifference(new Date(), new Date(time));
+                if (differentObject.days > 0)
+                    displayTime = differentObject.days + " " + localizeResource("day(s)-ago");
+                else if (differentObject.hours > 0)
+                    displayTime = differentObject.hours + " " + localizeResource("hour(s)-ago");
+                else if (differentObject.minutes > 0)
+                    displayTime = differentObject.minutes + " " + localizeResource("minute(s)-ago");
+                else
+                    displayTime = differentObject.seconds + " " + localizeResource("second(s)-ago");
+                $("#eventNotification li:nth-last-child(5)").find("#timeTrack").text(displayTime);
+            }
+            time = $("#eventNotification li:nth-last-child(4)").find("span:first").text();
+            if (!utils.isNullOrEmpty(time)) {
+                var differentObject = utils.getDateDifference(new Date(), new Date(time));
+                if (differentObject.days > 0)
+                    displayTime = differentObject.days + " " + localizeResource("day(s)-ago");
+                else if (differentObject.hours > 0)
+                    displayTime = differentObject.hours + " " + localizeResource("hour(s)-ago");
+                else if (differentObject.minutes > 0)
+                    displayTime = differentObject.minutes + " " + localizeResource("minute(s)-ago");
+                else
+                    displayTime = differentObject.seconds + " " + localizeResource("second(s)-ago");
+                $("#eventNotification li:nth-last-child(4)").find("#timeTrack").text(displayTime);
+            }
+            time = $("#eventNotification li:nth-last-child(3)").find("span:first").text();
+            if (!utils.isNullOrEmpty(time)) {
+                var differentObject = utils.getDateDifference(new Date(), new Date(time));
+                if (differentObject.days > 0)
+                    displayTime = differentObject.days + " " + localizeResource("day(s)-ago");
+                else if (differentObject.hours > 0)
+                    displayTime = differentObject.hours + " " + localizeResource("hour(s)-ago");
+                else if (differentObject.minutes > 0)
+                    displayTime = differentObject.minutes + " " + localizeResource("minute(s)-ago");
+                else
+                    displayTime = differentObject.seconds + " " + localizeResource("second(s)-ago");
+                $("#eventNotification li:nth-last-child(3)").find("#timeTrack").text(displayTime);
+            }
+        }
+    });
+    </script>
+</head>
+
+<body class=" pace-done">
+    <div class="pace  pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+    <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <div id="container" class="pos-r">
+        <div id="header" class="clearfix"><a href="javascript:void(0)" class="icon menu-toggle-icon left ir">Toggle left menu</a>
+            <a href="/kaisquare/dashboard" class="logo left" style="background: url('/kaisquare/content/bucketlogo/2') 0 0 no-repeat"></a>
+            <ul class="profile-error clearfix">
+                <li class="profile pos-r first-item"><a href="javascript:void(0)"><i class="icon account-icon left"></i>admin</a>
+                    <ul class="inner setting">
+                        <li class="triangle first-item">&nbsp;</li>
+                        <li><a href="/kaisquare/user/account/2">My Account</a>
+                        </li>
+                        <li class="last last-item"><a href="javascript:submitLogout()">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="errors pos-r"><a id="headerAlert" href="javascript:void(0)"><i class="icon alert-icon left"></i><span id="countBubble" class="badge-error tal-center">0</span></a>
+                    <ul class="inner" id="eventNotification">
+                        <li class="triangle first-item">&nbsp;</li>
+                        <li class="toggle-more tal-center last last-item">
+                            <a href="/kaisquare/alert/list">
+                                <strong>View All Alerts</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_liveView_seperator"></li>
+                <li class="profile pos-r last-item"><a class="liveView_block" href="/kaisquare/live/fullview"><i class="icon header-liveView-img left"></i>Live View</a>
+                </li>
+            </ul>
+            <script type="text/x-kendo-template" id="eventTableToolbar">
+
+                <div id=filterOptions class="event_filter_box">
+
+                    <a id="btnExcel" href="javascript:events.exportToFile('xls')" class="k-button" style="float:right">
+                        <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-excel.png" style="margin-right:3px; height:16px">Excel
+                    </a>
+
+                    <a id="btnPdf" href="javascript:events.exportToFile('pdf')" class="k-button" style="float:right">
+                        <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-pdf.png" style="margin-right:3px; height:16px">PDF
+                    </a>
+
+                    <a id="clrFilter" href="javascript:events.clearFilter()" class="k-button" style="float:right">
+                        <span></span>&nbsp; Clear Filters
+                    </a>
+
+                    <a id="btnFilter" href="javascript:events.applyFilter()" class="k-button" style="float:right">
+                        <span class="k-icon k-i-search"></span>&nbsp; Filter
+                    </a>
+
+                    <div>
+                        <label for="deviceList" class="event_filter_label">Node Name</label>
+                        <input id="deviceList" style="width:180px" autocomplete="off" />
+                        <label id="channelDisplayName" for="channelList" style="margin:0px 10px;">Camera</label>
+                        <input id="channelList" style="width:150px; min-width: 47px;" autocomplete="off" />
+                    </div>
+                    <div id="eventTypeSelection">
+                        <label for="eventTypeList" class="event_filter_label">Event Type</label>
+                        <input id="eventTypeList" style="width:180px" autocomplete="off" />
+                    </div>
+                    <div style="margin-top: 15px">
+                        <label class="event_filter_label" style="margin:0px"></label>
+                        <span class="event_filter_time_range_title">Start Date/Time</span>
+                        <span class="event_filter_time_range_title">End Date/Time</span>
+                    </div>
+
+                    <div>
+                        <label class="event_filter_label">Period</label>
+                        <input id="startDateTime" class="event_filter_datetime" autocomplete="off" title="Please select 'Start Date/time' and 'End Date/Time' based on your computer time" />
+                        <input id="endDateTime" class="event_filter_datetime" autocomplete="off" title="Please select 'Start Date/time' and 'End Date/Time' based on your computer time" />
+                    </div>
+                    <div id=mapfilter style="margin-top: 15px">
+                        <label for="location" class="event_filter_label">Location:</label>
+                        <input type="checkbox" id="locationChk" value="Location" disabled="disabled" />
+                        <a id="btnSearchMap" href="javascript:events.openLocationSearch()" class="k-button"> Map View</a>
+                    </div>
+
+                </div>
+
+            </script>
+            <script type="text/x-kendo-template" id="alertTableToolbar">
+
+                <div id=filterOptions class="event_filter_box">
+
+                    <a id="clrFilter" class="k-button" style="float:right">
+                        <span></span>&nbsp; Clear Filters
+                    </a>
+                    <a id="btnFilter" class="k-button" style="float:right">
+                        <span class="k-icon k-i-search"></span>&nbsp; Filter
+                    </a>
+
+                    <div>
+                        <label for="keyword" class="event_filter_label">Keywords</label>
+                        <input id="keyword" style="width:200px" placeholder="Alert name, labels or location." class="k-edit-field k-input k-textbox" autocomplete="off" />
+                    </div>
+                    <div id="eventTypeSelection">
+                        <label for="eventTypeList" class="event_filter_label">Event Type</label>
+                        <input id="eventTypeList" style="width:180px" autocomplete="off" />
+                    </div>
+                    <div style="margin-top: 15px">
+                        <label class="event_filter_label" style="margin:0px"></label>
+                        <span class="event_filter_time_range_title">Start Date/Time</span>
+                        <span class="event_filter_time_range_title">End Date/Time</span>
+                    </div>
+
+                    <div>
+                        <label class="event_filter_label">Period</label>
+                        <input id="startDateTime" class="event_filter_datetime" autocomplete="off" />
+                        <input id="endDateTime" class="event_filter_datetime" autocomplete="off" />
+
+                        <div style="float: right;">
+                            <a id="btnExcel" class="k-button" style="float:right">
+                                <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-excel.png" style="margin-right:3px; height:16px">Excel
+                            </a>
+                            <a id="btnPdf" class="k-button" style="float:right">
+                                <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-pdf.png" style="margin-right:3px; height:16px">PDF
+                            </a>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; display: none;">
+                        <label for="location" class="event_filter_label">Location:</label>
+                        <input type="checkbox" id="locationChk" value="Location" disabled="disabled" />
+                        <input type="button" id="map_view" value="Map View" class="k-button" style="width:100px; margin-left: 40px" />
+                    </div>
+
+
+            </script>
+            <script type="text/x-kendo-template" id="DrivereventTableToolbar">
+
+                <div id=filterOptions class="event_filter_box">
+
+                    <a id="clrFilter" class="k-button" style="float:right">
+                        <span></span>&nbsp; Clear Filters
+                    </a>
+                    <a id="btnFilter" class="k-button" style="float:right">
+                        <span class="k-icon k-i-search"></span>&nbsp; Filter
+                    </a>
+
+                    <div>
+                        <label for="deviceList" class="event_filter_label">driver-name</label>
+                        <input id="deviceList" style="width:180px" autocomplete="off" />
+                    </div>
+                    <div id="eventTypeSelection">
+                        <label for="eventTypeList" class="event_filter_label">Event Type</label>
+                        <input id="eventTypeList" style="width:180px" autocomplete="off" />
+                    </div>
+                    <div style="margin-top: 15px">
+                        <label class="event_filter_label" style="margin:0px"></label>
+                        <span class="event_filter_time_range_title">Start Date/Time</span>
+                        <span class="event_filter_time_range_title">End Date/Time</span>
+                    </div>
+
+                    <div>
+                        <label class="event_filter_label">Period</label>
+                        <input id="startDateTime" class="event_filter_datetime" autocomplete="off" />
+                        <input id="endDateTime" class="event_filter_datetime" autocomplete="off" />
+                    </div>
+                    <div id=mapfilter style="margin-top: 10px">
+                        <label for="location" class="event_filter_label">Location:</label>
+                        <input type="checkbox" id="locationChk" value="Location" disabled="disabled" />
+                        <input type="button" id="map_view" value="Map View" class="k-button" style="width:100px; margin-left: 40px" />
+                    </div>
+                    <div style="float: right;">
+                        <a id="btnExcel" class="k-button" style="float:right">
+                            <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-excel.png" style="margin-right:3px; height:16px">Excel
+                        </a>
+                        <a id="btnPdf" class="k-button" style="float:right">
+                            <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-pdf.png" style="margin-right:3px; height:16px">PDF
+                        </a>
+                    </div>
+                </div>
+            </script>
+            <script id="eventVideoBtnTmpl" type="text/x-kendo-template">
+                # if(data.patchEventVideoURL == null || data.patchEventVideoURL == '') { #
+                <span></span>
+                # } else { #
+                <a class="k-button" href="javascript:events.viewVideo('#= data.id #')">Event Video</a>
+                # } #
+            </script>
+            <script id="alertVideoBtnTmpl" type="text/x-kendo-template">
+                <a class="k-button" href="javascript:alerts.viewDetails('#= data.id #','#= data.eventId #')">Details</a>
+            </script>
+            <script type="text/x-kendo-template" id="groupHeaderTmpl">
+                <span class='table_group_title'>#= value #</span>
+            </script>
+            <div id="eventDetailWin" style="overflow: hidden"></div>
+            <script type="text/x-kendo-template" id="deviceFilterHeaderTmpl">
+
+                <style scoped>
+                .toolbar label {
+                    display: inline-block;
+                    text-align: right;
+                    width: 70px;
+                    margin: 0px 4px 0px 0px;
+                    vertical-align: middle;
+                    line-height: 34px;
+                }
+                .toolbar .k-input.k-textbox {
+                    width: 118px;
+                }
+                .search_box_wrapper {
+                    margin: 6px 2px 2px 2px;
+                    padding: 10px;
+                    border: 1px \#333333 solid;
+                }
+                .search_box_container {
+                    width: 800px;
+                }
+                .label_wrapper {
+                    width: 800px;
+                    height: 25px;
+                    margin-top: 6px;
+                }
+                .label_wrapper label {
+                    float: left;
+                    display: inline-block;
+                    margin: -3px 6px 0px 0px;
+                }
+                .multi_select_input {
+                    width: 720px;
+                    height: 25px;
+                    float: left;
+                }
+                .k-floatwrap li {
+                    margin: 2px;
+                }
+                .k-floatwrap input {
+                    margin: 2px;
+                }
+                .k-floatwrap .k-readonly {
+                    margin-top: 4px;
+                }
+                .k-multiselect-wrap {
+                    border-radius: 0px;
+                }
+                .clear_filter {
+                    float: right;
+                    margin: 3px 2px 0px 0px;
+                }
+                </style>
+
+                <div class="toolbar">
+                    <div id=topButtonBox>
+                        <a class="k-button" id="btnAddDevice" style="display: none;">
+                            <span class="k-icon k-i-plus"></span>Add New Node</a>
+                    </div>
+
+                    <div class="search_box_wrapper">
+                        <div class="search_box_container">
+                            <div class="label_wrapper">
+                                <label for="labelsFilter">Labels</label>
+                                <select id="labelsFilter" class="multi_select_input"></select>
+                            </div>
+                            </br>
+
+                            <label>Name</label>
+                            <input id=nameFilter type="text" class="k-input k-textbox">
+                            <label>Model</label>
+                            <input id=modelFilter type="text" class="k-input k-textbox">
+                            <label>Host</label>
+                            <input id=hostFilter type="text" class="k-input k-textbox">
+                            <label>Address</label>
+                            <input id=addressFilter type="text" class="k-input k-textbox">
+
+                            <div>
+                                <label>Port Range</label>
+                                <input class="portRange" style="width:52px;" id=minPortFilter placeholder="0">-
+                                <input class="portRange" style="width:53px;" id=maxPortFilter placeholder="0">
+
+                                <a id="clrFilter" class="k-button clear_filter">Clear Filters</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </script>
+            <script type="text/x-kendo-template" id="recordingDownloadTmpl">
+                <a class="k-button" href="#= data.url #?action=download" download="#= data.filename #">
+    Download
+    </a>
+            </script>
+            <script type="text/x-kendo-template" id="periodicPdfDownloadTmpl">
+                # if(!utils.isNullOrEmpty(data.pdffilename)){ #
+                <a class="k-button" href="javascript:periodic._downloadPeriodicReport('#= data.pdffilename #')">
+        PDF
+        </a>
+                # } if(!utils.isNullOrEmpty(data.pdffilename)){ #
+                <a class="k-button" href="javascript:periodic._downloadPeriodicReport('#= data.xlsfilename #')">
+        XLS
+        </a>
+                # } if(!utils.isNullOrEmpty(data.pdffilename)){ #
+                <a class="k-button" href="javascript:periodic._downloadPeriodicReport('#= data.csvfilename #')">
+        CSV
+        </a>
+                # } #
+            </script>
+            <script type="text/x-kendo-template" id="deviceStatusTemplate">
+
+                # if(status != 'event-connected') { #
+                <span class="device_status_wrapper device_disconnected" title="#= localizeResource('event-connected') #"></span>
+                # } #
+
+            </script>
+            <script type="text/x-kendo-template" id="internalErrorTemplate">
+
+                <div id=filterOptions class="event_filter_box">
+
+                    <a id="clrFilter" href="javascript:internalerror.clearFilter()" class="k-button" style="float:right">
+                        <span></span>&nbsp; Clear Filters
+                    </a>
+
+                    <a id="btnFilter" href="javascript:internalerror.applyFilter()" class="k-button" style="float:right">
+                        <span class="k-icon k-i-search"></span>&nbsp; Filter
+                    </a>
+
+                    <div>
+                        <label for="bucketList" class="event_filter_label">Bucket Name</label>
+                        <input id="bucketList" style="width:150px" autocomplete="off" />
+                        <label for="deviceList" style="margin:0px 10px;">Node Name</label>
+                        <input id="deviceList" style="width:150px" autocomplete="off" />
+                        <label id="channelDisplayName" for="channelList" style="margin:0px 10px;">Camera</label>
+                        <input id="channelList" style="width:150px; min-width: 47px;" autocomplete="off" />
+                    </div>
+
+                    <div style="margin-top: 15px">
+                        <label class="event_filter_label" style="margin:0px"></label>
+                        <span class="event_filter_time_range_title">Start Date/Time</span>
+                        <span class="event_filter_time_range_title">End Date/Time</span>
+                    </div>
+
+                    <div>
+                        <label class="event_filter_label">Period</label>
+                        <input id="startDateTime" class="event_filter_datetime" autocomplete="off" title="Please select 'Start Date/time' and 'End Date/Time' based on your computer time" />
+                        <input id="endDateTime" class="event_filter_datetime" autocomplete="off" title="Please select 'Start Date/time' and 'End Date/Time' based on your computer time" />
+                    </div>
+
+                </div>
+
+            </script>
+            <script type="text/x-kendo-template" id="accountStatementsToolbarTmpl">
+                <div id=filterOptions class="event_filter_box">
+
+                    <a href="javascript:accountstatement.exportXls()" class="k-button" style="float:right">
+                        <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-excel.png" style="margin-right:3px; height:16px">Excel
+                    </a>
+
+                    <a href="javascript:accountstatement.exportPdf()" class="k-button" style="float:right">
+                        <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/export-pdf.png" style="margin-right:3px; height:16px">PDF
+                    </a>
+
+                    <a href="javascript:accountstatement.clearFilter()" class="k-button" style="float:right">
+                        <span></span>&nbsp; Clear Filters
+                    </a>
+
+                    <div>
+                        <label for="#= name #" class="event_filter_label">Bucket Name</label>
+                        <input id="#= name #" style="width:150px" autocomplete="off" />
+                    </div>
+
+                </div>
+            </script>
+            <script type="text/x-kendo-template" id="UserSessionTimeColumnDetailsGrid">
+                # var dateDiffObj = utils.getDateDifference(new Date(), new Date(timeobject)) if(dateDiffObj.days > 0){ #
+                <span>#= kendo.toString((kendo.parseDate(new Date(timeobject), kupapi.TIME_FORMAT)), kupapi.TIME_FORMAT) #</span>
+                #} else if (dateDiffObj.hours > 0) { #
+                <span>#= kendo.toString((kendo.parseDate(new Date(timeobject), kupapi.TIME_ONLY_FORMAT)), kupapi.TIME_ONLY_FORMAT) # ( #= dateDiffObj.hours # &nbsp; #= localizeResource('hour(s)-ago') # )</span>
+                #} else if (dateDiffObj.minutes > 0) { #
+                <span>#= kendo.toString((kendo.parseDate(new Date(timeobject), kupapi.TIME_ONLY_FORMAT)), kupapi.TIME_ONLY_FORMAT) # ( #= dateDiffObj.minutes # &nbsp; #= localizeResource('minute(s)-ago') # )</span>
+                #} else if (dateDiffObj.seconds > 0) { #
+                <span>#= kendo.toString((kendo.parseDate(new Date(timeobject), kupapi.TIME_ONLY_FORMAT)), kupapi.TIME_ONLY_FORMAT) # ( #= dateDiffObj.seconds # &nbsp; #= localizeResource('second(s)-ago') # )</span>
+                #} #
+            </script>
+            </div>
+            <div id="content" class="clearfix">
+                <div id="sidebar" tabindex="5000" style="overflow: hidden; outline: none; cursor: -webkit-grab; display: block;">
+                    <div class="sidebar-inner" style="width: 250px;">
+                        <script type="text/javascript">
+                        $(document).ready(function() {
+                            var intialRequest = true;
+                            var menuBar = $("#menu-panelbar").kendoPanelBar({
+                                expandMode: "single",
+                                animation: {
+                                    expand: {
+                                        duration: 300,
+                                        effects: "expandVertical"
+                                    }
+                                },
+                                select: function(e) {
+                                    var item = $("#menu-panelbar").data("kendoPanelBar").select();
+                                    var _menu = $(e.item);
+                                    var _url = _menu.attr("url");
+                                    if (_url === undefined) {
+                                        if (item.hasClass("k-state-active")) {
+                                            $("#menu-panelbar").data("kendoPanelBar").collapse(item);
+                                            item.children("span").removeClass("k-state-selected");
+                                            item.children("span").removeClass("k-state-focused");
+                                        }
+                                        return;
+                                    }
+                                    if ((_url.indexOf("live/fullview") !== -1) && (location.href.indexOf("live/fullview") !== -1)) {
+                                        $("#menu-panelbar").data("kendoPanelBar").select($("#liveViewTab").parent().parent());
+                                        intializeSubmenu(0);
+                                    } else {
+                                        window.location.href = _url;
+                                    }
+                                }
+                            });
+
+                            //disable not implemented ones
+                            $("#menu-panelbar").data("kendoPanelBar").enable($("#deviceRecordingTab"), false);
+                            $("#menu-panelbar").data("kendoPanelBar").enable($("#snapshotRecording"), false);
+                            $("#menu-panelbar").data("kendoPanelBar").enable($("#tagListTab"), false);
+                            $("#menu-panelbar").data("kendoPanelBar").enable($("#zoneListTab"), false);
+
+                        });
+                        </script>
+                        <style type="text/css">
+                        .font-tab-header {
+                            font-size: 13px;
+                            font-weight: bold
+                        }
+                        .font-tab-child {
+                            font-size: 12.2px;
+                            font-weight: normal;
+                            color: #d9d8d8
+                        }
+                        .k-link>span {
+                            line-height: 25px
+                        }
+                        </style>
+                        <ul id="menu-panelbar" class="toggle-panels k-widget k-reset k-header k-panelbar" data-role="panelbar" tabindex="0" role="menu">
+                            <li id="liveMonitoringTab" class="first-item k-item k-state-default k-first" aria-expanded="false" role="menuitem">
+                                <span class="k-link k-header">Monitoring
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="liveViewTab" url="/kaisquare/live/fullview" class="first-item k-item k-state-default k-first" role="menuitem">
+                                        <span class="k-link"><i class="live-view left-menu-image"></i> Live View
+                                            <span id="liveviewSubMenu" class="sub_menu_icon"></span>
+                                        </span>
+                                    </li>
+                                    <li id="liveTrackTab" url="/kaisquare/location/track" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="live-track left-menu-image"></i> Live Track</span>
+                                    </li>
+                                    <li id="poiTab" url="/kaisquare/poi/list" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="points-of-interest left-menu-image"></i> Point of Interests</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="recordingTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Recording
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="cloudRecordingTab" url="/kaisquare/record/cloudlist" class="first-item last-item k-item k-state-default k-first k-last" role="menuitem">
+                                        <span class="k-link"><i class="cloud-recording left-menu-image"></i> Local Recording</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="biTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Video Analytics
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="vcaBiTitle" class="first-item k-item k-state-disabled k-first" role="menuitem" aria-disabled="true">
+                                        <span class="k-link">
+                                            <span class="tab-inline-title">BUSINESS INTELLIGENCE</span>
+                                            <span class="hr" style="margin: 0px 10px; display: block;"></span>
+                                        </span>
+                                    </li>
+                                    <li id="faceIndexingTab" url="/kaisquare/vca/faceindexing" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-face left-menu-image"></i> Face Indexing</span>
+                                    </li>
+                                    <li id="trafficFlowTab" url="/kaisquare/vca/trafficflow" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-traffic left-menu-image"></i> Human Traffic Flow</span>
+                                    </li>
+                                    <li id="peopleCountingTab" url="/kaisquare/vca/peoplecounting" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-people-counting left-menu-image"></i> People Counting</span>
+                                    </li>
+                                    <li id="crowdDetectionTab" url="/kaisquare/vca/crowd" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-crowd left-menu-image"></i> Crowd Density</span>
+                                    </li>
+                                    <li id="profilingTab" url="/kaisquare/vca/profiling" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-audienceprofiling left-menu-image"></i> Audience Profiling</span>
+                                    </li>
+                                    <li id="queueCountingTab" url="/kaisquare/vca/queuecounting" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-queue-count left-menu-image"></i> Queue Counting</span>
+                                    </li>
+                                    <li id="vcaSecurityTitle" class="k-item k-state-disabled" role="menuitem" aria-disabled="true">
+                                        <span class="k-link">
+                                            <span class="tab-inline-title">SECURITY</span>
+                                            <span class="hr" style="margin: 0px 10px; display: block;"></span>
+                                        </span>
+                                    </li>
+                                    <li id="intrusionTab" url="/kaisquare/vca/areaintrusion" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-intrusion left-menu-image"></i> Intrusion Detection</span>
+                                    </li>
+                                    <li id="perimeterDefenseTab" url="/kaisquare/vca/pdefense" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-perimeter left-menu-image"></i> Perimeter Defense</span>
+                                    </li>
+                                    <li id="areaLoiteringTab" url="/kaisquare/vca/loitering" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-loitering left-menu-image"></i> Loitering Detection</span>
+                                    </li>
+                                    <li id="objectCountingTab" url="/kaisquare/vca/objectcounting" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-object-counting left-menu-image"></i> Trip Wire Counting</span>
+                                    </li>
+                                    <li id="blurVideoTab" url="/kaisquare/vca/blur" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-video-blur left-menu-image"></i> Camera Tampering</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="reportTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Reports
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="biReportTitle" class="first-item k-item k-state-disabled k-first" role="menuitem" aria-disabled="true">
+                                        <span class="k-link">
+                                            <span class="tab-inline-title">BUSINESS INTELLIGENCE</span>
+                                            <span class="hr" style="margin: 0px 10px; display: block;"></span>
+                                        </span>
+                                    </li>
+                                    <li id="faceReportTab" url="/kaisquare/report/faceindexing" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-face left-menu-image"></i> Face Indexing</span>
+                                    </li>
+                                    <li id="trafficReportTab" url="/kaisquare/report/trafficflow" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-traffic left-menu-image"></i> Human Traffic Flow</span>
+                                    </li>
+                                    <li id="pCountingReportTab" url="/kaisquare/report/peoplecounting" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-people-counting left-menu-image"></i> People Counting
+                                            <span id="pCountingReportSubMenu" class="sub_menu_icon"></span>
+                                        </span>
+                                    </li>
+                                    <li id="crowdReportTab" url="/kaisquare/report/crowd" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-crowd left-menu-image"></i> Crowd Density</span>
+                                    </li>
+                                    <li id="profilingReportTab" url="/kaisquare/report/profiling" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-audienceprofiling left-menu-image"></i> Audience Profiling
+                                            <span id="profilingReportSubMenu" class="sub_menu_icon"></span>
+                                        </span>
+                                    </li>
+                                    <li id="securityReportTitle" class="k-item k-state-disabled" role="menuitem" aria-disabled="true">
+                                        <span class="k-link">
+                                            <span class="tab-inline-title">SECURITY</span>
+                                            <span class="hr" style="margin: 0px 10px; display: block;"></span>
+                                        </span>
+                                    </li>
+                                    <li id="intrusionReportTab" url="/kaisquare/report/intrusion" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-intrusion left-menu-image"></i> Intrusion Detection</span>
+                                    </li>
+                                    <li id="pdefenseReportTab" url="/kaisquare/report/pdefense" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-perimeter left-menu-image"></i> Perimeter Defense</span>
+                                    </li>
+                                    <li id="loiteringReportTab" url="/kaisquare/report/loitering" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-loitering left-menu-image"></i> Loitering Detection</span>
+                                    </li>
+                                    <li id="objCountingReportTab" url="/kaisquare/report/objcounting" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-object-counting left-menu-image"></i> Trip Wire Counting</span>
+                                    </li>
+                                    <li id="videoBlurReportTab" url="/kaisquare/report/videoblur" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="event-vca-video-blur left-menu-image"></i> Camera Tampering</span>
+                                    </li>
+                                    <li id="otherReportTitle" class="k-item k-state-disabled" role="menuitem" aria-disabled="true">
+                                        <span class="k-link">
+                                            <span class="tab-inline-title">OTHER</span>
+                                            <span class="hr" style="margin: 0px 10px; display: block;"></span>
+                                        </span>
+                                    </li>
+                                    <li id="periodicReportListTab" url="/kaisquare/report/listperiodicreport" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="periodic-report-generate left-menu-image"></i> Periodic Reports</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="adminSettingsTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Admin Settings
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="userListTab" url="/kaisquare/user/list" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="user-management left-menu-image"></i> User Management</span>
+                                    </li>
+                                    <li id="roleListTab" url="/kaisquare/role/list" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="role-management left-menu-image"></i> Role Management</span>
+                                    </li>
+                                    <li id="deviceListTab" url="/kaisquare/device/list" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="device-management left-menu-image"></i> Device Management</span>
+                                    </li>
+                                    <li id="nodeListTab" url="/kaisquare/node/list" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="device-list left-menu-image"></i> Device List</span>
+                                    </li>
+                                    <li id="periodicReportTab" url="/kaisquare/report/summaryreports" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="periodic-report-config left-menu-image"></i> Periodic Report Management</span>
+                                    </li>
+                                    <li id="POSReportTab" url="/kaisquare/report/posconfig" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="periodic-report-config left-menu-image"></i> POS Management</span>
+                                    </li>
+                                    <li id="localLicensesTab" url="/kaisquare/license/localnodelicenses" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="license_management left-menu-image"></i> My Licenses</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="condominiumManagementTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Condominium Management
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="pairIntercomAndCameraListTab" url="/kaisquare/intercom/list" class="first-item k-item k-state-default k-first" role="menuitem">
+                                        <span class="k-link"><i class="intercom-management left-menu-image"></i> Pair Intercom and Camera</span>
+                                    </li>
+                                    <li id="snapshotIntercomHistoryListTab" url="/kaisquare/intercom/snapshot" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="snapshot-management left-menu-image"></i> Snapshot History</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="notificationManagementTab" aria-expanded="false" class="k-item k-state-default" role="menuitem">
+                                <span class="k-link k-header">Notification Management
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="historicalalertTab" url="/kaisquare/alert/list" class="first-item k-item k-state-default k-first" role="menuitem">
+                                        <span class="k-link"><i class="historical-alerts left-menu-image"></i> Historical Alerts</span>
+                                    </li>
+                                    <li id="alertruleTab" url="/kaisquare/alertrule/list" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="alert-rule-management left-menu-image"></i> Alert Rule Management</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="customerSupportTab" class="last-item k-item k-state-default k-last" aria-expanded="false" role="menuitem">
+                                <span class="k-link k-header">Customer Support
+                                    <span class="k-icon k-i-arrow-s k-panelbar-expand"></span>
+                                </span>
+                                <ul class="font-tab-child k-group k-panel" role="group" aria-hidden="true" style="display: none;">
+                                    <li id="internalError" url="/kaisquare/support/internalerror" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="internal-error left-menu-image"></i> Internal Error</span>
+                                    </li>
+                                    <li id="accountStatements" url="/kaisquare/support/accountstatements" class="k-item k-state-default" role="menuitem">
+                                        <span class="k-link"><i class="account-statement left-menu-image"></i> Account Statements</span>
+                                    </li>
+                                    <li id="nodeInformation" url="/kaisquare/support/nodeinformation" class="last-item k-item k-state-default k-last" role="menuitem">
+                                        <span class="k-link"><i class="node-information left-menu-image"></i> Node Information</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="main">
+                    <div class="dashboard-container">
+                        <header class="title">Dashboard</header>
+                        <div>
+                            <div class="dashboard-infobox">
+                                <div class="dashboard-infobox-highlight">
+                                    <a href="#" class="dashboard-infobox-icon">
+                                        <img src="images/analytics_icon.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="dashboard-infobox-text">
+                                    <a href="#">
+                                        <p id="showAnalytics" class="dashboard-infobox-value">0</p>
+                                        <p class="dashboard-infobox-description">analytics</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dashboard-infobox">
+                                <div class="dashboard-infobox-highlight">
+                                    <a href="#" class="dashboard-infobox-icon">
+                                        <img src="images/ico_active_nodes.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="dashboard-infobox-text">
+                                    <a href="#">
+                                        <p id="showActiveNodes" class="dashboard-infobox-value">2</p>
+                                        <p class="dashboard-infobox-description">active nodes</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dashboard-infobox">
+                                <div class="dashboard-infobox-highlight">
+                                    <a href="#" class="dashboard-infobox-icon">
+                                        <img src="images/ico_loggedin.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="dashboard-infobox-text">
+                                    <a href="#">
+                                        <p id="showloggedInUsers" class="dashboard-infobox-value">6</p>
+                                        <p class="dashboard-infobox-description">logged in users</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="dashboard-chartbox">
+                                <div id="showNoData2PeopleCountingChart" class="dashboard-chartbox-content chart-data-zero">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">People Counting</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(Last 7 days)</span>
+                                    </p>
+                                </div>
+                                <div class="dashboard-chartbox-content">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">People Counting</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(Last 7 days)</span>
+                                    </p>
+                                    <div class="dashboard-chart-container">
+                                        <span style="text-align: left; font-size: 12px; color: #f6ae40; font-family: Muli,sans-serif; float: right;">* people count</span>
+                                        <div id="peopleCountingChart" class="dashboard-chart-container">
+                                            <a href="#"><img src="images/vector_smart_object_2.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <div style="clear: both; height: 0;"></div>
+                                </div>
+                                <div class="dash-people-footer-group dash-clearfix">
+                                    <p class="dash-people-footer-total">
+                                        <span style="font-size: 30px; line-height: 36px; color: #f6ae40;">28,684</span>
+                                        <br>
+                                        <span style="line-height: 18px;">people visited</span>
+                                    </p>
+                                    <p class="dash-people-footer-today">
+                                        <span style="font-size: 30px; line-height: 36px; color: #f6ae40;">4,837</span>
+                                        <br>
+                                        <span style="line-height: 18px;">visited today</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dashboard-chartbox">
+                                <div id="showNoData2SecurityAlertsChart" class="dashboard-chartbox-content chart-data-zero">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">Security Alerts</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(last 7 days)</span>
+                                    </p>
+                                </div>
+                                <div class="dashboard-chartbox-content">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">Security Alerts</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(last 7 days)</span>
+                                    </p>
+                                    <div class="dashboard-chart-container">
+                                        <span style="text-align: left; font-size: 12px; color: #f6ae40; font-family: Muli,sans-serif; float: right;">* alerts</span>
+                                        <div id="securityAlertsChart" class="dashboard-chart-container">
+                                            <a href="#"><img src="images/vector_smart_object_3.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <div style="clear: both; height: 0;"></div>
+                                </div>
+                                <div class="dash-security-footer-group dash-clearfix">
+                                    <span style="font-size: 30px; line-height: 36px; color: #f6ae40;">4,797</span>
+                                    <br>
+                                    <span style="line-height: 18px;">alerts</span>
+                                </div>
+                            </div>
+                            <div class="dashboard-chartbox">
+                                <div id="showNoData2GenderProfilingChart" class="dashboard-chartbox-content chart-data-zero">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">Gender Profiling</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(last 7 days)</span>
+                                    </p>
+                                </div>
+                                <div class="dashboard-chartbox-content">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">Gender Profiling</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(last 7 days)</span>
+                                    </p>
+                                    <div class="dashboard-chart-container">
+                                        <div id="genderProfilingChart" class="dashboard-chart-container">
+                                            <a href="#"><img src="images/chart.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <div style="clear: both; height: 0;"></div>
+                                </div>
+                                <div class="dash-gender-footer-group dash-clearfix">
+                                    <p class="dash-gender-footer-male">
+                                        <span style="font-size: 30px; line-height: 36px; color: #32a8ad;">2,312</span>
+                                        <br>
+                                        <span>male</span>
+                                    </p>
+                                    <p class="dash-gender-footer-female">
+                                        <span style="font-size: 30px; line-height: 36px; color: #ff675d;">3,543</span>
+                                        <br>
+                                        <span>female</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="dashboard-chartbox">
+                                <div id="showNoDataTestChart" class="dashboard-chartbox-content chart-data-zero" style="
+    display: block;
+">
+                                    <p class="dashboard-chartbox-title">
+                                        <span style="font-weight: 500;">Test Chart</span>
+                                        <span style="font-size: 12px; color: #808080;margin:0 0 0 9px">(last 7 days)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <link rel="stylesheet" type="text/css" href="dashboard.css">
+                    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+                    <script src="http://cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+                    <script src="/public/javascripts/kup/external/morris.js"></script>
+                    <script src="/public/javascripts/kup/kup.js"></script>
+                    <script src="/public/javascripts/kup/kup.utils.js"></script>
+                    <script src="/public/javascripts/kup/kup.request.js"></script>
+                    <script src="/public/javascripts/kup/content/kup.content.dashboard.js"></script>
+                    <script>
+                    jQuery(document).ready(function($) {
+                        var config = {
+                            days: 7
+                        }
+                        KUP.init();
+                        KUP.content.dashboard.setOpt(config);
+                        KUP.content.dashboard.init();
+                        //$(".timeline_content_container").show();
+                    });
+                    </script>
+                </div>
+                <div id="footer">
+                    <div class="hr">&nbsp;</div>
+                    <div class="tiles-content w100">
+                        <div class="tiles tal-left">Copyright © 2014 <a href="http://www.kaisquare.com/">KAI Square</a> | All Rights Reserved</div>
+                        <div class="tiles tal-center">Best viewed using Mozilla Firefox (3.5 or newer) with Adobe Flash Player (10.0 or newer).</div>
+                        <div class="tiles tal-right"><a href="/kaisquare/footer/index" target="_blank" id="eula">Terms &amp; Privacy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+        .darkened-overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #000;
+            opacity: .5;
+            display: block;
+            z-index: 100001
+        }
+        .loading-icon-overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 50px;
+            height: 50px;
+            border-radius: 4px;
+            opacity: 1.0;
+            z-index: 100002
+        }
+        .loading-text-overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 200px;
+            height: 40px;
+            border-radius: 4px;
+            opacity: 1.0;
+            z-index: 1002;
+            font-weight: bold;
+            color: #eaac20;
+            background-color: #000;
+            line-height: 40px;
+            text-align: left;
+            font-size: 11px
+        }
+        </style>
+        <div id="alertBox" class="alert_box"></div>
+        <div id="notifyBox" class="notify_box"></div>
+        <div id="popupWin" style="display: none">
+            <div class="kup-form-box">confirmationMessage</div>
+            <div align="center"><a id="btnConfirmOk" href="#" class="k-button" style="width:60px; margin-right: 10px">Yes</a><a id="btnConfirmCancel" href="#" class="k-button" style="width:60px">No</a>
+            </div>
+        </div>
+        <div class="darkened-overlay" style="display: none;"></div>
+        <div class="loading-icon-overlay" style="display: none;">
+            <img style="margin: 3px;" src="http://ci.developer.kaisquare.com:9000/public/css/common/images/loading.gif">
+        </div>
+        <div class="loading-text-overlay" style="display: none;">
+            <div id="btnLoadingCancel" style="position: absolute; top: 3px; right: 3px; display: none">
+                <a href="javascript:utils.hideLoadingOverlay()">
+                    <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/stop_loading.png" style="width: 12px; height: 12px; margin: 3px;">
+                </a>
+            </div>
+            <img src="http://ci.developer.kaisquare.com:9000/public/css/common/images/loading.gif" style="width:35px;height:35px;margin-right: 10px">
+            <span id="loadingText"></span>
+            <span id="loadingTimeSeconds" style="display: none; margin-left: 5px"></span>
+        </div>
+        <div id="ascrail2000" class="nicescroll-rails" style="width: 3px; z-index: 3; cursor: default; position: fixed; height: 635px; display: none; opacity: 0; background: rgb(20, 20, 20);">
+            <div style="position: relative; top: 0px; float: right; width: 3px; height: 635px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(246, 174, 64); background-clip: padding-box;"></div>
+        </div>
+        <div id="ascrail2000-hr" class="nicescroll-rails" style="height: 3px; z-index: 3; position: fixed; cursor: default; display: block; width: 249px; opacity: 0; background: rgb(20, 20, 20);">
+            <div style="position: relative; top: 0px; height: 3px; width: 248px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; left: 0px; background-color: rgb(246, 174, 64); background-clip: padding-box;"></div>
+        </div>
+</body>
+
+</html>
